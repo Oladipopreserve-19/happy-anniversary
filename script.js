@@ -19,7 +19,12 @@ function countdown() {
         clearInterval(i);
         document.querySelector(
             ".countdown"
-        ).innerHTML = `<h1 style="text-align: center;">Happy 30<sup>th</sup> year wedding anniversary to<br/>our Mummy, Mrs, Pastor, Teacher, Prophetess, etc... <br/><b style=" animation: color 0.5 infinite;">OLADIPO BIMPE BITRICE</b><br/>&<br/>our Daddy, Mr, Pastor, Barrister, etc... <br/><b style=" animation: color 0.5 infinite;">OLADIPO JOSEPH ADEYINKA</h1>`;
+        ).innerHTML = `<h1 style="text-align: center;">Happy 30<sup>th</sup> year wedding anniversary to<br/>our Mummy, Mrs, Pastor, Teacher, Prophetess, etc... <br/><b style=" animation: color 0.5 infinite;">OLADIPO BIMPE BITRICE</b><br/>&<br/>our Daddy, Mr, Pastor, Barrister, etc... <br/><b style=" animation: color 0.5 infinite;">OLADIPO JOSEPH ADEYINKA</h1><br/>
+        
+        <audio controls autoplay>
+        <source src="Iyawo-Mi-Timi-Dakolo-PraiseZion.mp3" type="audio/ogg">
+        <source src="Iyawo-Mi-Timi-Dakolo-PraiseZion.mp3" type="audio/mpeg">
+        </audio>`;
 
     } else {
         let daysLeft = Math.floor(remainingTime / oneDay);
