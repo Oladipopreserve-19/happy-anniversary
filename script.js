@@ -52,7 +52,7 @@ window.onload = function() {
     setInterval(changeImage, 5000);
 
     function changeImage() {
-        var i = Math.floor((Math.random() * 3));
+        var i = Math.floor((Math.random() * 7));
 
         document.body.style.backgroundImage = "url('" + backgroundImg[i] + "')";
 
